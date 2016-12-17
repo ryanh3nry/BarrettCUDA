@@ -1,0 +1,2 @@
+# BarrettCUDA
+BarrettCUDA is a fast(ish) implementation of finite field sparse matrix-vector multiplication (SpMV) for Nvidia GPU devices, written in CUDA C++. BarrettCUDA supports SpMV for matrices expressed in the 'compressed column storage' (CCS) sparse matrix representation over (i) the field of integers modulo an arbitrary multi-precision prime, or (ii) either of the binary fields GF(2^8) or GF(2^16).
